@@ -1,6 +1,8 @@
 <template>
   <div>
-    <img src="../assets/img/dc-logo.png" alt="logo DC" id="logoHeader">
+    <a href="#">
+      <img src="../assets/img/dc-logo.png" alt="logo DC" id="logoHeader">
+    </a>
   </div>
 </template>
 

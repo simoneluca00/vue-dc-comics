@@ -3,6 +3,7 @@
     <header>
       <div id="logoNav">
       <LogoComp />
+      <NavComp />
       </div>
     </header>
   </div>
@@ -10,11 +11,13 @@
 
 <script>
 import LogoComp from './components/LogoComp.vue'
+import NavComp from './components/NavComp.vue'
 
 export default {
   name: 'App',
   components: {
     LogoComp,
+    NavComp,
   }
 }
 </script>
@@ -26,10 +29,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
 
   header {
-    padding: 20px 0;
+    // padding: 20px 0;
 
     #logoNav {
-      width: 80%;
+      width: 85%;
       margin: 0 auto;
       display: flex;
       justify-content: space-between;
