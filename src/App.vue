@@ -14,7 +14,8 @@
     </main>
 
     <footer>
-      <FooterComp />
+      <FooterTopComp />
+      <FooterBottomComp />
     </footer>
 
   </div>
@@ -25,7 +26,8 @@ import LogoComp from './components/LogoComp.vue'
 import NavComp from './components/NavComp.vue'
 import ContentComp from './components/ContentComp.vue'
 import InfoComp from './components/InfoComp.vue'
-import FooterComp from './components/FooterComp.vue'
+import FooterTopComp from './components/FooterTopComp.vue'
+import FooterBottomComp from './components/FooterBottomComp.vue'
 
 export default {
   name: 'App',
@@ -34,7 +36,8 @@ export default {
     NavComp,
     ContentComp,
     InfoComp,
-    FooterComp
+    FooterTopComp,
+    FooterBottomComp
   }
 }
 </script>

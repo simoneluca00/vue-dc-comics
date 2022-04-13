@@ -58,7 +58,7 @@
 
 <script>
 export default {
-  name: 'FooterComp',
+  name: 'FooterTopComp',
 
   data() {
       return {
@@ -224,6 +224,10 @@ export default {
                 a {
                     text-decoration: none;
                     color: $text-gray-footer;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
 
@@ -243,6 +247,11 @@ export default {
 
         .logo-footer {
             margin: -70px 0;
+
+            // img {
+            //     // height: 110%;
+                
+            // }
         }
     }
 }

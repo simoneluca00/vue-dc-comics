@@ -54,6 +54,8 @@ export default {
 .container {
     background-color: $active-blue;
     padding: 30px 0;
+    position: relative;
+    z-index: 1;
 
     .row {
         width: 80%;
@@ -71,7 +73,7 @@ export default {
         img {
             height: 50px;
             margin-right: 15px;
-            z-index: 1;
+            
 
         }
 
@@ -79,8 +81,6 @@ export default {
             text-transform: uppercase;
             font-size: 0.9em;
             font-weight: bold;
-            z-index: 1;
-
         }
     }
 }
