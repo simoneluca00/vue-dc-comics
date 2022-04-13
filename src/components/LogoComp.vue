@@ -15,8 +15,14 @@ export default {
 
 <style scoped lang="scss">
 
-img#logoHeader {
-  height: 70px;
+div {
+  height: 80px;
+
+  #logoHeader {
+    height: 100%;
+    padding: 5px 0;
+    vertical-align: middle;
+  }
 }
 
 </style>

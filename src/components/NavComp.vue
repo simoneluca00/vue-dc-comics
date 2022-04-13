@@ -34,7 +34,7 @@ ul {
         text-transform: uppercase;
         font-weight: bold;
         font-size: 0.9em;
-        padding: 20px 0;
+        padding: 27.3px 0;
         margin: 0 15px;
         
         &:hover {
@@ -45,12 +45,12 @@ ul {
 
 
     li:not(.active){
-        border-bottom: 3px solid transparent;
+        border-bottom: 5px solid transparent;
     }
 
     li.active {
         color: $active-blue;
-        border-bottom: 3px solid $active-blue;
+        border-bottom: 5px solid $active-blue;
     }
 }
 
