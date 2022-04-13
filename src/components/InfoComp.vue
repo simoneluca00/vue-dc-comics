@@ -1,8 +1,8 @@
 <template>
   <div class="container">
       <div class="row">
-          <div v-for="(element,index) in arrayInfo" :key="index">
-              <img :src="`../assets/img/${element.icon}.png`" :alt="`icona ${element.caption}`">
+          <div v-for="(element,index) in arrayInfo" :key="index" class="infoIcons">
+              <img v-bind:src="require(`../assets/img/${element.icon}.png`)" :alt="`icona ${element.caption}`">
               <span>{{element.caption}}</span>
           </div>
       </div>
@@ -65,24 +65,26 @@ export default {
         justify-content: space-between;
         align-items: center;
 
-        div {
+        .infoIcons {
             display: flex;
             align-items: center;
-        }
-
-        img {
-            height: 50px;
-            margin-right: 15px;
             
+            img {
+                height: 45px;
+                margin-right: 10px;
+                
 
+            }
+
+            span {
+                text-transform: uppercase;
+                font-size: 0.9em;
+                font-weight: bold;
+            }
         }
 
-        span {
-            text-transform: uppercase;
-            font-size: 0.9em;
-            font-weight: bold;
-        }
     }
+
 }
 
 </style>
