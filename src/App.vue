@@ -37,7 +37,7 @@ export default {
     ContentComp,
     InfoComp,
     FooterTopComp,
-    FooterBottomComp
+    FooterBottomComp,
   }
 }
 </script>

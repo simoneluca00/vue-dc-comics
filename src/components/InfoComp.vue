@@ -68,6 +68,10 @@ export default {
         .infoIcons {
             display: flex;
             align-items: center;
+
+            &:hover {
+                cursor: pointer;
+            }
             
             img {
                 height: 45px;

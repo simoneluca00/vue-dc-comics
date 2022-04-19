@@ -227,6 +227,8 @@ export default {
 
                     &:hover {
                         text-decoration: underline;
+                        color: $active-blue;
+
                     }
                 }
             }
@@ -247,11 +249,6 @@ export default {
 
         .logo-footer {
             margin: -70px 0;
-
-            // img {
-            //     // height: 110%;
-                
-            // }
         }
     }
 }
