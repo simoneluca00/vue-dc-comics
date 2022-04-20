@@ -1,8 +1,6 @@
 <template>
     <div class="series">
-        <div class="imgSeries">
-            <img :src="thumb" :alt="'copertina di ' + series">
-        </div>
+        <img :src="thumb" :alt="'copertina di ' + series">
         <h5>{{series}}</h5>
     </div>
 </template>
@@ -21,10 +19,6 @@
 
 <style scoped lang="scss">
 
-div.products {
-    display: flex;
-    flex-wrap: wrap;
-
     .series {
         flex-basis: calc(100% / 6);
         margin-bottom: 40px;
@@ -34,6 +28,5 @@ div.products {
         }
 
     }
-}
 
 </style>

@@ -3,7 +3,7 @@
     <div id="hero"></div>
 
     <div id="content">
-      <div class="sectionTitle">
+      <div class="labelComic">
         current series
       </div>
       
@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import ProductComp from './ProductComp.vue'
+import ProductComp from './partials/ProductComp.vue'
 
 export default {
   name: 'ContentComp',
@@ -136,7 +136,7 @@ export default {
       margin: 0 auto;
       color: $text-white;
 
-      div.sectionTitle{
+      div.labelComic{
         white-space: nowrap;
         text-transform: uppercase;
         font-family: "Bebas Neue", cursive;
@@ -152,6 +152,7 @@ export default {
 
       div.products {
         display: flex;
+        justify-content: space-between;
         flex-wrap: wrap;
         padding: 10px 0 50px 0;
       }
